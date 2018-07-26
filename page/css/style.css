@@ -1,0 +1,155 @@
+#movies img, #movie img {
+	width: 100%;
+
+}
+
+@media(min-width:960px){
+	#movies .col-md-3 .well{
+	height: 390px;
+}
+
+	#movies .col-md-3 img{
+	height: 240px;
+}
+}
+
+#addWatch{
+	margin-bottom: 0;
+	margin-left: 392px;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.divclass{
+	border-bottom:3px solid;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.divclass p{
+	font-weight: normal;
+	font-size:15px;
+}
+ 
+.cont {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cont input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+
+.cont:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.cont input:checked ~ .checkmark {
+  background-color: green;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.cont input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/
+.cont .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*.btn-normal{
+  background-color: gray;
+}*/
+
+.cool{
+  background-color: gray;
+}
+
+.btn-normal{
+  border:1px solid;
+  background-color:lightgrey;
+
+}
+.btn-danger{
+  border:1px solid black;
+  
+}
+
+.btn-normal2{
+  border:1px solid black;
+  background-color: black;
+  color:white;
+}
+
+.btn-normal2:hover{
+  color:grey;
+}
+
+.btn {
+  font-size:10px;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+ul{
+  list-style: none;
+}
+
+.form-1{
+  box-sizing: border-box;
+  width:33%;
+  float:left;
+  margin-left:10px;
+  margin-bottom: 50px;
+}
+
+.form-2{
+  box-sizing: border-box;
+  width:33%;
+  float:right;
+  margin-bottom: 50px;
+}
+.form-3{
+  box-sizing: border-box;
+  width:33%;
+  float:right;
+  margin-bottom: 50px;
+}
+
+
